@@ -3,7 +3,9 @@ __pycache__/
 *.pyc
 data/faces/
 /img_align_celeba/
-checkpoints/
+checkpoints/*
+!checkpoints/
+!checkpoints/generator.pt
 samples/
 training_history.csv
 .DS_Store
